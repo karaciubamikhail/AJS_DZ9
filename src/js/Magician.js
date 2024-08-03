@@ -1,7 +1,9 @@
-import RangeHeavyHitter from './RangeHeavyHitter';
+import Character from './Сharacter'
 
-export default class Magician extends RangeHeavyHitter {
-  constructor(name, type, occupation = 'Magician') {
-    super(name, type, occupation);
-  }
+export class Magician extends Character{
+    constructor (name,type){
+        super(name,type);
+        this.attack = 100;
+        this.defence = 40;
+    }
 }

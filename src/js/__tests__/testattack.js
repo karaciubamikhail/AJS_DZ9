@@ -1,4 +1,4 @@
-import Character from '../Character';
+import Character from '../Сharacter';
 
 
 test('testing whether Character with params could be created', () => {

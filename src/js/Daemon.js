@@ -1,7 +1,9 @@
-import RangeHeavyHitter from './RangeHeavyHitter';
+import Character from './Сharacter'
 
-export default class Daemon extends RangeHeavyHitter {
-  constructor(name, type, occupation = 'Daemon') {
-    super(name, type, occupation);
-  }
+export class Daemon extends Character{
+    constructor (name,type){
+        super(name,type);
+        this.attack = 100;
+        this.defence = 40;
+    }
 }

@@ -1,4 +1,4 @@
-import Magician from '../Magician';
+import Magician from './Magician';
 
 test('testing whether Magician with params could be created', () => {
   const Merlin = new Magician('Merlin');
